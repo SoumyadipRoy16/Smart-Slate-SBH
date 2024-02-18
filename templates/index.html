@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class Routine Generator</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .container {
+        margin-top: 100px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <img src="C:\Users\subho\Desktop\Smart Bengal Hackathon\images\logo.jpeg" alt="Your Logo" class="rounded-logo" height="90">
+                    Class Routine Generator
+                </div>
+                <div class="card-body">
+                    <div id="loginTypeButtons">
+                        <button type="button" class="btn btn-primary btn-block mb-3" onclick="loginAsAdmin()">LOGIN AS ADMIN</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="loginAsUser()">LOGIN AS USER</button>
+                    </div>
+                    <div id="loginForm" style="display: none;">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" value="admin" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter password">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block btn-login" onclick="login()">LOGIN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../script/user.js"></script>
+
+</body>
+</html>
