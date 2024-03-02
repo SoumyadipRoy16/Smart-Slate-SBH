@@ -9,7 +9,7 @@ function loginAsUser() {
     document.getElementById("loginTypeButtons").style.display = "none";
     document.getElementById("loginForm").style.display = "block";
     document.getElementById("username").value = "user"; // Set hardcoded username
-    document.getElementById("password").setAttribute("placeholder", "user");
+    document.getElementById("password").setAttribute("placeholder", "user123");
 }
 
 function login() {
@@ -34,7 +34,7 @@ function login() {
     if ((username === "admin" && password === "admin123") || (username === "user" && password === "user123")) {
         if (username == "admin") {
             window.location.href = "admin_dashboard.html";
-        } else {
+        } else if (username == "user"){
             window.location.href = "user_dashboard.html";
         }
     }
