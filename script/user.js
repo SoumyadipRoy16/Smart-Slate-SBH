@@ -23,7 +23,7 @@
         // Hardcoded username and password for demonstration purposes
         if ((username === "admin" && password === "admin123") || (username === "user" && password === "user123")) {
             if (username === "admin") {
-                window.location.href = "admin-dashboard.html";
+                window.location.href = "admin_dashboard.html";
             } else {
                 window.location.href = "user_dashboard.html";
             }
