@@ -1,4 +1,4 @@
-# Code-Wizards-SBH
+# Smart-Slate-SBH
 # Smart Education: Automatic Class Routine Generator
 
 This project aims to create an automatic class routine generator that optimizes the scheduling of classes based on various input constraints such as faculty timing, class timing, number of periods, and break times.
