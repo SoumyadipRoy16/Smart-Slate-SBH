@@ -1,6 +1,8 @@
 # Smart-Slate-SBH
 # Smart Education: Automatic Class Routine Generator
 
+![Smart-Slate](https://th.bing.com/th/id/OIP.6xp0XT-W6zXFOUL_9gxvngAAAA?rs=1&pid=ImgDetMain)
+
 This project aims to create an automatic class routine generator that optimizes the scheduling of classes based on various input constraints such as faculty timing, class timing, number of periods, and break times.
 
 ## Features
